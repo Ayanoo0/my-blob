@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ayano Space " ,
   description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/pic/004-palm tree.svg' }]],
+  head: [['link', { rel: 'icon', href: 'pic/004-palm tree.svg' }]],
   base:"/my-blob/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
