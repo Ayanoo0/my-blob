@@ -2,14 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "Ayano Space " ,
   description: "A VitePress Site",
+  head: [['link', { rel: 'icon', href: '/pic/004-palm tree.svg' }]],
   base:"/my-blob/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '随笔列表', link: '/essay-list/艳火' }
     ],
 
     sidebar: [
@@ -21,6 +22,9 @@ export default defineConfig({
         ]
       }
     ],
+   
+
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
