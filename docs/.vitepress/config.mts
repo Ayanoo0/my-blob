@@ -18,6 +18,7 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
+          { text: '艳火', link: '/essay-list/艳火' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
